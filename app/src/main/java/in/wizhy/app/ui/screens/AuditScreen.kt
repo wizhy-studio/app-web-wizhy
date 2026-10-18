@@ -169,7 +169,7 @@ fun AuditScreen() {
                     if (isScanning) {
                         Spacer(modifier = Modifier.height(16.dp))
                         LinearProgressIndicator(
-                            progress = { scanProgress },
+                            progress = scanProgress,
                             modifier = Modifier.fillMaxWidth(),
                             color = WizhyOrange
                         )
